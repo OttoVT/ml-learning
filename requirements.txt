@@ -1,0 +1,28 @@
+# Core scientific Python — the foundation for everything in this repo
+numpy
+matplotlib
+pandas
+scipy
+
+# Classic ML (metrics, train/test split, baseline models)
+scikit-learn
+
+# Deep learning (building neural networks: feedforward, RNN, transformer)
+torch
+torchvision
+
+# Embeddings & transformers (attention, cosine similarity, modern NLP)
+transformers
+sentence-transformers
+
+# Notebooks (interactive lessons)
+jupyter
+ipykernel
+
+# Deployment (serving a model as an API)
+fastapi
+uvicorn
+pydantic
+
+# Experiment tracking & testing (verifying models and ML code)
+pytest
