@@ -79,4 +79,4 @@ And the deepest practical lesson:
 The work is also tracked as **epics and stories** (one epic per phase, one story per
 lesson) so progress is visible and reviewable — see
 [`_bmad-output/planning-artifacts/epics.md`](_bmad-output/planning-artifacts/epics.md)
-(11 epics, 60 stories, generated with BMAD).
+(11 epics, 62 stories, generated with BMAD).

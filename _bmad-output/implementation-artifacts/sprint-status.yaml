@@ -1,0 +1,145 @@
+# generated: 2026-06-29
+# last_updated: 2026-06-29
+# project: ml-real
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: {project-root}/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; sprint-status surfaces open ones
+
+generated: 2026-06-29
+last_updated: 2026-06-29
+project: ml-real
+project_key: NOKEY
+tracking_system: file-system
+story_location: "{project-root}/_bmad-output/implementation-artifacts"
+
+development_status:
+
+  epic-1: backlog
+  1-1-create-and-activate-a-virtual-environment: backlog
+  1-2-install-project-dependencies: backlog
+  1-3-generate-the-source-plan-graphs: backlog
+  1-4-run-a-jupyter-cell: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-vectors-matrices-and-matrix-multiplication: backlog
+  2-2-a-layer-is-wx-b: backlog
+  2-3-derivatives-and-gradients: backlog
+  2-4-the-chain-rule: backlog
+  2-5-probability-log-and-log-probabilities: backlog
+  2-6-vector-geometry-and-cosine: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-python-essentials: backlog
+  3-2-numpy-arrays-and-broadcasting: backlog
+  3-3-pandas-basics: backlog
+  3-4-matplotlib-basics: backlog
+  3-5-re-implement-the-source-plan-graphs: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-train-test-split: backlog
+  4-2-validation-cross-validation-and-leakage: backlog
+  4-3-classification-vs-regression: backlog
+  4-4-overfitting-and-generalization: backlog
+  4-5-bias-variance-and-regularization: backlog
+  4-6-build-a-scikit-learn-baseline: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-what-a-loss-function-is: backlog
+  5-2-mean-squared-error: backlog
+  5-3-cross-entropy: backlog
+  5-4-gradient-descent: backlog
+  5-5-learning-rate-epochs-batches: backlog
+  5-6-implement-gradient-descent-by-hand: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-the-confusion-matrix: backlog
+  6-2-accuracy-and-its-limits: backlog
+  6-3-precision: backlog
+  6-4-recall: backlog
+  6-5-precision-recall-trade-off: backlog
+  6-6-f1-score: backlog
+  6-7-cosine-similarity: backlog
+  6-8-choosing-the-right-metric: backlog
+  epic-6-retrospective: optional
+
+  epic-7: backlog
+  7-1-feedforward-networks-mlps: backlog
+  7-2-recurrent-networks: backlog
+  7-3-embeddings: backlog
+  7-4-attention: backlog
+  7-5-transformers: backlog
+  epic-7-retrospective: optional
+
+  epic-8: backlog
+  8-1-a-neuron-and-a-layer-in-numpy: backlog
+  8-2-forward-pass-for-an-mlp: backlog
+  8-3-backpropagation-from-scratch: backlog
+  8-4-train-a-numpy-mlp-on-real-data: backlog
+  8-5-rebuild-the-mlp-in-pytorch: backlog
+  8-6-train-an-rnn-and-an-attention-block: backlog
+  epic-8-retrospective: optional
+
+  epic-9: backlog
+  9-1-evaluate-without-cheating: backlog
+  9-2-read-learning-curves: backlog
+  9-3-error-analysis: backlog
+  9-4-robustness-calibration-and-slices: backlog
+  9-5-test-ml-code-with-pytest: backlog
+  9-6-reproducibility: backlog
+  epic-9-retrospective: optional
+
+  epic-10: backlog
+  10-1-save-and-load-a-model: backlog
+  10-2-serve-the-model-via-fastapi: backlog
+  10-3-validate-input-and-match-preprocessing: backlog
+  10-4-batch-vs-real-time-inference: backlog
+  10-5-monitor-in-production: backlog
+  10-6-containerize-and-deploy-stretch: backlog
+  epic-10-retrospective: optional
+
+  epic-11: backlog
+  11-1-choose-dataset-and-define-the-cost-of-mistakes: backlog
+  11-2-choose-architecture-loss-and-metric: backlog
+  11-3-build-verify-and-deploy-end-to-end: backlog
+  11-4-write-up-results-and-reflection: backlog
+  epic-11-retrospective: optional

@@ -1046,7 +1046,7 @@ So that I consolidate what I learned.
 ## Validation summary
 
 - **Coverage:** All Learning Requirements LR-0.1 … LR-C.4 are covered by exactly one
-  story (see FR Coverage Map). 11 epics, 60 stories.
+  story (see FR Coverage Map). 11 epics, 62 stories.
 - **Sequencing (NFR6):** Each epic depends only on earlier epics; no forward
   dependencies. Within each epic, stories are ordered and self-contained.
 - **Template compliance:** Every story uses the `As a / I want / So that` form and at

@@ -133,4 +133,4 @@ When the phases are done, prove it with one end-to-end project:
 This roadmap is mirrored as **epics** (one per phase) and **stories** (one per
 lesson) for review-friendly tracking. See
 [`../_bmad-output/planning-artifacts/epics.md`](../_bmad-output/planning-artifacts/epics.md)
-— 11 epics, 60 stories, each with acceptance criteria.
+— 11 epics, 62 stories, each with acceptance criteria.
